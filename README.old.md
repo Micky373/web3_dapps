@@ -1,0 +1,2 @@
+# web3_dapps
+Web3 technology is inherently about the user controlled internet. It is being achieved by a growing stack of decentralized technologies, such as blockchains, smart contracts, oracles, crypto wallets, storage networks, and more.  This project will take the Algorand block chain as a foundation and enable the 10Academy team to generate as well as distribute certificates as NFT (Non Fungible Tokens) upon successful completion of weekly tasks.
