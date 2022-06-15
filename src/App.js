@@ -2,7 +2,11 @@ import './App.css';
 
 const App = () => {
   return (
-    <div className="App"></div>
+    <div className="App">
+      <h1>
+        Web3 Dapp
+      </h1>
+    </div>
   );
 }
 
