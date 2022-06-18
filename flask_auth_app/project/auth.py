@@ -2,7 +2,7 @@ from crypt import methods
 from flask import Blueprint, render_template, redirect, url_for,request,flash
 from werkzeug.security import generate_password_hash, check_password_hash
 from .models import User
-from flask_login import login_user
+from flask_login import login_user,login_required, logout_user
 from . import db
 
 auth = Blueprint('auth', __name__)
@@ -57,5 +57,7 @@ def signup_post():
     return redirect(url_for('auth.login'))
 
 @auth.route('/logout')
+@login_required
 def logout():
-    return render_template('logout.html')
+    logout_user()
+    return render_template('main.index')
