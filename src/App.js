@@ -44,7 +44,7 @@ const App = () => {
       />
       <br />
       <br />
-      <button id="button"> Generate Certificates </button> <br /> <br />
+      <button id="button"> Generate the Certificate </button> <br /> <br />
       <button id="button"> Show Extra </button>
     </div>
   );
