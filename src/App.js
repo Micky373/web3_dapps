@@ -14,7 +14,7 @@ const App = () => {
     <div className="App">
       <h1>Student Certificate submitting page</h1>
       <div className="submit_cert" style={fileSubmissionStyle}>
-        <label>Select the certificate: </label>
+        <label for="file">Select the certificate: </label>
         <input type="file" id="myfile" name="myfile" accept="application/pdf" />
       </div>
       <br />
