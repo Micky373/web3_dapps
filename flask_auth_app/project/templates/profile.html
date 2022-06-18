@@ -1,3 +1,59 @@
 {% extends "base.html" %} {% block content %}
 <h1 class="title">Welcome,{{name}}</h1>
+<div className="App">
+  <h1 style="font-size: 2rem; font-weight: bold">
+    Student Certificate submitting page
+  </h1>
+  <div style="margin-top: 2rem">
+    <label for="file" style="font-size: 2rem">Select the certificate: </label>
+    <input
+      type="file"
+      id="myfile"
+      name="myfile"
+      accept="application/pdf"
+      style="
+        background-color: #282c34;
+        padding: 1rem;
+        font-size: 1rem;
+        margin: 0.5rem;
+      "
+    />
+  </div>
+  <br />
+  <br />
+  <label style="font-size: 1.5rem"> Full Name: </label>
+  <input
+    className="input"
+    type="text"
+    placeholder="Full-name of the reciever"
+    style="padding: 1rem; font-size: 1.5rem"
+  />
+  <br />
+  <br />
+  <label style="font-size: 1.5rem"> Unit Name: </label>
+  <input
+    className="input"
+    name="phone"
+    type="text"
+    placeholder="The unit name of certificate "
+    style="padding: 1rem; font-size: 1.5rem"
+  />
+  <br />
+  <br />
+  <label style="font-size: 1.5rem"> Description: </label>
+  <input
+    className="input"
+    type="text"
+    placeholder="Description of the certificate"
+    style="padding: 1rem; font-size: 1.5rem"
+  />
+  <br />
+  <br />
+  <button style="font-size: 1.5rem" id="button">
+    Generate the Certificate
+  </button>
+  <br />
+  <br />
+  <button style="font-size: 1.5rem" id="button">Show Extra</button>
+</div>
 {% endblock %}
