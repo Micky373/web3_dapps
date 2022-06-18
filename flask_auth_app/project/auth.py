@@ -60,4 +60,4 @@ def signup_post():
 @login_required
 def logout():
     logout_user()
-    return render_template('main.index')
+    return render_template('index.html')
