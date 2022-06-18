@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![screenshot](screenshot.PNG)
+![screenshot](screenshot.png)
 
 ## Built With
 
